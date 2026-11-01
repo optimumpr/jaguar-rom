@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://optimumpr.github.io/jaguar-rom/sitemap.xml
