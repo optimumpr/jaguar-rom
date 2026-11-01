@@ -16,3 +16,8 @@
 .detail-cards p{color:var(--sub)}
 .feature-more{margin-top:28px}
 @media(max-width:700px){.detail-cards{grid-template-columns:1fr}.detail-wrap{max-width:100%}}
+
+/* Batch 3: device directory and detail pages */
+.device-list a{border:1px solid #51515a;border-radius:999px;padding:10px 18px;background:#222329;text-decoration:none}.device-list a:hover{border-color:var(--red);color:#fff}
+.device-card-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin:35px 0}.device-card{display:flex;flex-direction:column;gap:9px;padding:25px;border:1px solid var(--line);border-radius:12px;background:var(--panel);text-decoration:none}.device-card:hover{border-color:var(--red)}.device-card strong{font-size:1.25rem}.device-card span{color:var(--sub);font-size:.91rem}.device-card .device-card-action{color:#ff777c;font-weight:700;margin-top:12px}.device-facts{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;margin:30px 0 45px}.device-facts>div{padding:20px;border:1px solid var(--line);border-radius:10px;background:var(--panel)}.device-facts span{display:block;color:#ff777c;font-size:.75rem;font-weight:800;letter-spacing:.12em}.device-facts strong{display:block;margin-top:8px;overflow-wrap:anywhere}
+@media(max-width:800px){.device-card-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:540px){.device-card-grid,.device-facts{grid-template-columns:1fr}}
