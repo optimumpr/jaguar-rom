@@ -1,8 +1,26 @@
-# Jaguar ROM
+# Jaguar ROM website
 
-Official website for Jaguar ROM.
+Static HTML/CSS website for Jaguar ROM. This first batch is a preview, not yet published.
 
-A security-focused Android 11 ROM for OnePlus
-6, 6T, 8, 8 Pro, 8T, 9 and 9 Pro.
+## Local preview
 
-Website: https://optimumpr.github.io/jaguar-rom/
+From the repository root:
+
+```bash
+python3 -m http.server 8000
+```
+
+Open `http://localhost:8000/`.
+
+## Publishing
+
+Review changes on `beta` before merging into `main`. GitHub Pages should later be configured to deploy from `main` at the repository root (`/`).
+
+## Before publishing
+
+- Confirm all feature descriptions and security caveats.
+- Add official Telegram invitation and verified device-specific XDA/download links.
+- Review mobile layout and accessibility.
+- Confirm current security patch and vendor-firmware support information.
+
+Artwork supplied by the Jaguar ROM developer. Do not replace with stock assets.
